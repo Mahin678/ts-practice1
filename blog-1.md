@@ -1,4 +1,4 @@
-Why is any labeled a "type safety hole," and why is unknown the safer choice for handling unpredictable data? Explain the concept of type narrowing.
+1. Why is any labeled a "type safety hole," and why is unknown the safer choice for handling unpredictable data? Explain the concept of type narrowing.
 
 any means in typescript is a type, which is disabled type checking for that variable in any operation. When we are use any type , we can use that value directly without type checking. example
 let x: any = "hello world";
